@@ -1,0 +1,30 @@
+html
+
+<strong></strong> : 진하게 표시 하는것
+<u></u> 밑줄표시
+<h1></h1> 제목을 나타내는 태그 h1부터 h6 까지 있음 숫자가 커질수록 글씨가 작아짐
+<br> 줄바꿈 태그
+<p></p> 단락을 나타내는 태그
+<img> 이미지를 나타내는 태그
+  {
+    width="" src=""를 사용해서 나타낸다
+  }
+
+<title></title>  : 제목태그
+<body></body> : 본문전체를 감싸는 태그
+<head></head> : 본문을 설명해주는 태그를 감싸는 그
+<html></html> : html문서 전체를 감싸는 태그
+<a href="링크 주소" target ="" title="설명"></a> : 링크 태그
+
+
+
+부모자식 태그
+<ul> : unordered list의 약자
+  <li></li> : list의 약자
+</ul>
+
+<ol> :ordered list의 약자
+  <li></li>
+</ol>
+
+css
