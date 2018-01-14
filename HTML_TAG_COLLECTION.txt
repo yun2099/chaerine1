@@ -1,4 +1,4 @@
-html
+html tag collection
 
 <strong></strong> : 진하게 표시 하는것
 <u></u> 밑줄표시
@@ -15,8 +15,8 @@ html
 <head></head> : 본문을 설명해주는 태그를 감싸는 그
 <html></html> : html문서 전체를 감싸는 태그
 <a href="링크 주소" target ="" title="설명"></a> : 링크 태그
-
-
+<input type="checkbox"> : 체크박스
+<font></font> : 안씀
 
 부모자식 태그
 <ul> : unordered list의 약자

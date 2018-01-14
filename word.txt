@@ -1,0 +1,15 @@
+﻿essence 본질
+innovation 혁신
+hobby 교양
+professional 직업
+effort 노력
+skills 능력
+row 열
+column 행
+declaration 선언
+selector 선택
+property 속성
+value 값
+align 정렬하다
+column 기둥
+template 현판 견본
