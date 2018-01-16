@@ -4,36 +4,47 @@
     <title>chaerin</title>
     <meta charset="utf-8">
     <style>
-      body{
-        margin:0;
-      }
+    body{
+      margin:0;
+    }
+    #grid{
+      border:2px solid black;
+      display: grid;
+      grid-template-columns:200px 1fr;
+    }
+    #grid ol{
+      padding-right: 100px;
+    }
+    #active{
+      color:red;
+    }
+    #article{
+      padding-left: 0;
+    }
+    .saw {
+      color:gray;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+    }
+    ol {
+      border-right :1px solid gray;
+      width:30%;
+      margin:0;
+      padding:20px;
+    }
+    @media(max-width:800px) {
       #grid{
-        border:5px solid pink;
-        display: grid;
-        grid-template-columns:200px 1fr;
+        display: block;
       }
-      #active{
-        color:red;
-      }
-      .saw {
-        color:gray;
-      }
-      a {
-        color:black;
-        text-decoration: none;
-      }
-      h1 {
-        font-size: 40px;
-        text-align: center;
-        border-bottom:1px solid gray;
-        margin:0;
-      }
-      ol {
-        border-right :1px solid gray;
-        width:30%;
-        margin:0;
-        padding:20px;
-      }
+    }
     </style>
   </head>
   <body>
@@ -44,10 +55,10 @@
         <li><a href="2.html" id="active">CSS</a></li>
         <li><a href="3.html" class="saw" >javaScript</a></li>
       </ol>
-      <span>
+      <div>
         <h2>chaerin</h2>
-        <img src="img\Photos\IMG_0352.png" width="300px">
-      </span>
+        <img src="img\Photos\chaerine_life_bestshot.jpg" width="561.750px">
+      </div>
     </div>
   </body>
 </html>

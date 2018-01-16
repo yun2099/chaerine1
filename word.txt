@@ -13,3 +13,4 @@ value 값
 align 정렬하다
 column 기둥
 template 현판 견본
+query 질문 의문
