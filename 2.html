@@ -8,7 +8,6 @@
       margin:0;
     }
     #grid{
-      border:2px solid black;
       display: grid;
       grid-template-columns:200px 1fr;
     }
@@ -43,6 +42,12 @@
     @media(max-width:800px) {
       #grid{
         display: block;
+      }
+      ol {
+        border-right: none;
+      }
+      h1 {
+        border-bottom: none;
       }
     }
     </style>

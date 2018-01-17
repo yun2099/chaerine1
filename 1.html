@@ -8,7 +8,6 @@
       margin:0;
     }
     #grid{
-      border:2px solid black;
       display: grid;
       grid-template-columns:200px 1fr;
     }
@@ -40,6 +39,17 @@
       margin:0;
       padding:20px;
     }
+    @media(max-width:800px) {
+      #grid{
+        display: block;
+      }
+      ol {
+        border-right: none;
+      }
+      h1 {
+        border-bottom: none;
+      }
+    }
     </style>
   </head>
   <body>
@@ -53,7 +63,7 @@
       <div>
         <h2>HTML</h2>
         <strong><u>HTML</u> tag collection</strong>
-        <p><a href="https://www.w3.org/TR/html51/" target="black"
+        <p><a href="https:yun2099.github.com" target="black"
           title="html5 speicification">chaerin where are you?</a></p>
           <p style="margin-top:40px;">i miss you</p>
           &#x2661;
