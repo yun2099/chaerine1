@@ -14,4 +14,9 @@ align 정렬하다
 column 기둥
 template 현판 견본
 query 질문 의문
-variable vs constant
+variable 변수
+constant 변함없는 정수
+program 순서
+relative 상대적인
+absolute 완벽한
+snytax 문법

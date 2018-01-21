@@ -3,66 +3,23 @@
   <head>
     <title>missyou</title>
     <meta charset="utf-8">
-    <style>
-    body{
-      margin:0;
-    }
-    #grid{
-      display: grid;
-      grid-template-columns:200px 1fr;
-    }
-    #grid ol{
-      padding-right: 100px;
-    }
-    #active{
-      color:red;
-    }
-    #article{
-      padding-left: 0;
-    }
-    .saw {
-      color:gray;
-    }
-    a {
-      color:black;
-      text-decoration: none;
-    }
-    h1 {
-      font-size: 40px;
-      text-align: center;
-      border-bottom:1px solid gray;
-      margin:0;
-    }
-    ol {
-      border-right :1px solid gray;
-      width:30%;
-      margin:0;
-      padding:20px;
-    }
-    .js {
-      font-weight: bold;
-      color :red;
-    }
-    @media(max-width:800px) {
-      #grid{
-        display: block;
-      }
-      ol {
-        border-right :none;
-      }
-      h1 {
-        border-bottom:none;
-      }
-      iframe {
-        width: auto;
-        height: auto;
-      }
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
       <h1><a href="index.html">WEB</a></h1>
-      <h2 style="background-color:coral;:powderblue">chaerine</h2>
+      <h2>chaerine</h2>
+      <input id="night_day2" type="button" value="night" onclick="
+      var target = document.querySelector('body');
+        if (this.value === 'day'){
+          target.style.backgroundColor = 'white';
+          target.style.color = 'black';
+          this.value ='night';
+        } else{
+          target.style.backgroundColor = 'black';
+          target.style.color = 'white';
+          this.value = 'day';
+        }
+      ">
       <div id="grid">
       <ol>
         <li><a href="1.html" class="saw">HTML</a></li>
@@ -72,11 +29,13 @@
       <div id="article">
         <h2>missyou</h2>
         <p>
-          <span class="js">soyou</span>ddd<span class="js">soyou</span><span class="js">soyou</span><span class="js">soyou</span><span class="js">soyou</span><span class="js">soyou</span><span class="js">soyou</span><span class="js">soyou</span>
-          <br>
-          <iframe width="800" height="700" src="https://www.youtube.com/embed/trdml6rytBQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <span class="js">soyou</span>
+          <div class="video">
+            <iframe width="400;" height="400;" src="https://www.youtube.com/embed/trdml6rytBQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
         </p>
       </div>
     </div>
+
   </body>
 </html>

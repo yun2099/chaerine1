@@ -1,0 +1,64 @@
+  body{
+    margin:0;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns:200px 1fr;
+  }
+  #grid ol{
+    padding-right: 100px;
+  }
+  #active{
+    color:red;
+  }
+  #article{
+    padding-left: 0;
+  }
+  .saw {
+    color:gray;
+  }
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height:0;
+    overflow:hidden;
+  }
+  .video iframe,
+  .video object,
+  .video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height:100%;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+  }
+  ol {
+    border-right :1px solid gray;
+    width:30%;
+    margin:0;
+    padding:20px;
+  }
+  @media(max-width:800px) {
+    #grid{
+      display: block;
+    }
+    ol {
+      border-right: none;
+    }
+    h1 {
+      border-bottom: none;
+    }
+    img {
+      width: max-width;
+    }
+  }
