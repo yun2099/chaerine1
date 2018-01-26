@@ -20,3 +20,9 @@ program 순서
 relative 상대적인
 absolute 완벽한
 snytax 문법
+argument 인자
+parameter 매개변수
+basic 기초적인
+return 돌려주다
+document 문서
+iteration 반복
