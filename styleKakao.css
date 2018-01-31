@@ -10,14 +10,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #3F3035;
+  background: #523638;
   padding: 20px 5px;
   box-sizing: border-box;
   color: white;
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
-
+  font-weight: 300;
+}
+.header.shown {
+  position: fixed;
 }
 
 .header_title{
@@ -71,7 +74,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
-  background-color:rgba(244, 247, 249, 1);
+  padding-bottom: 0;
+  background-color:#f7f7f7;
   bottom: 0;
   box-sizing: border-box;
 }
@@ -80,9 +84,35 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: grey
+  color: #c1c1c1;
 }
 
 .footerText{
   margin-top: 5px;
+}
+
+.actionBtn {
+  width: 50px;
+  height: 50px;
+  background-color: #ffe84d;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #523638;
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.actionBtnNotyellow {
+  background-color: white;
+  bottom: 180px;
+  right: -100px;
+  transition: all .3s ease-in-out;
+}
+
+.showingButton {
+  right: 20px;
 }
